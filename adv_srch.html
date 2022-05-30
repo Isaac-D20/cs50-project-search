@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Advanced Search</title>
+    <link href="stylesheets/adv_srch.css" rel="stylesheet">
+</head>
+<body>
+<div class="header">
+    <div class="links">
+        <a href="index.html">Google Search</a>
+    </div>
+</div>
+<div class="appbar">
+    <label style="margin-left:10px">Advanced Search</label>
+</div>
+<div class="line"></div>
+<form action="https://google.com/advanced_search">
+    <table>
+        <tr>
+            <th>Find pages with...</th>
+        </tr>
+        <tr>
+            <td>all these words:</td>
+            <td>
+                <input id="allOf" name="as_q" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>this exact word or phrase:</td>
+            <td>
+                <input id="thisExact" name="as_epq" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>any of these words:</td>
+            <td>
+                <input id="anyOf" name="as_oq" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>none of these words:</td>
+            <td>
+                <input id="noneOf" name="as_eq" type="text">
+            </td>
+        </tr>
+    </table>
+    <div class="btn">
+        <input id="adv_srch_btn" value="Advanced Search" type="submit">
+    </div>
+</form>
+</body>
+</html>
