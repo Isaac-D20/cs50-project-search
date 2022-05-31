@@ -14,7 +14,7 @@
     <label style="margin-left:10px">Advanced Search</label>
 </div>
 <div class="line"></div>
-<form action="https://google.com/advanced_search">
+<form action="https://google.com/search">
     <table>
         <tr>
             <th>Find pages with...</th>
@@ -22,29 +22,30 @@
         <tr>
             <td>all these words:</td>
             <td>
-                <input id="allOf" name="as_q" type="text">
+                <input id="allOf" name="as_q" type="text" value>
             </td>
         </tr>
         <tr>
             <td>this exact word or phrase:</td>
             <td>
-                <input id="thisExact" name="as_epq" type="text">
+                <input id="thisExact" name="as_epq" type="text" value>
             </td>
         </tr>
         <tr>
             <td>any of these words:</td>
             <td>
-                <input id="anyOf" name="as_oq" type="text">
+                <input id="anyOf" name="as_oq" type="text" value>
             </td>
         </tr>
         <tr>
             <td>none of these words:</td>
             <td>
-                <input id="noneOf" name="as_eq" type="text">
+                <input id="noneOf" name="as_eq" type="text" value>
             </td>
         </tr>
     </table>
     <div class="btn">
+        <input name="tbs" type="hidden" value="">
         <input id="adv_srch_btn" value="Advanced Search" type="submit">
     </div>
 </form>

@@ -36,11 +36,13 @@ a:hover {
   justify-content: flex-end;
 }
 
-.logo div {
-    max-height: 250px;
-    max-width: 100%;
-    width: auto;
-    text-align: right;
+div#no_logo {
+  max-height: 240px;
+}
+
+div#fake_logo {
+  max-height: 92px;
+  text-align: right;
 }
 
 div#no_logo:hover {
@@ -51,12 +53,12 @@ p#logo_txt {
     color: #4285f4;
     font: 16px/16px roboto-regular, arial, sans-serif;
     position: relative;
-    right: 25px;
+    right: 5px;
     bottom: 35px;
 }
 
 form {
-    padding: 30px;
+    padding: 25px;
     width: auto;
 }
 
