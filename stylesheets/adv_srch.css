@@ -41,15 +41,13 @@ th {
     min-width: 167px;
     width: 16%;
     font-size: 16px;
-    min-height: 42px;
     font-weight: 500;
+    min-height: 42px;
     color: #333;
-    vertical-align: middle;
     text-align: left;
 }
 
 table {
-    border-collapse: collapse;
     max-width: 600px;
     min-width: 200px;
     width: 50%;
@@ -58,10 +56,9 @@ table {
 
 tr td {
     vertical-align: middle;
-    height: 42px;
+    height: 40px;
     color: #222;
     font-size: 13px;
-    line-height: 16px;
 }
 
 td:nth-child(1) {
